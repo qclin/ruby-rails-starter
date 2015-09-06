@@ -1,9 +1,10 @@
 ---
-url: https://lesbonneschoses.prismic.io/api
+# url: https://lesbonneschoses.prismic.io/api
+url: https://qiaotest.prismic.io/api
 # If specified this token is used for all "guest" requests
-# token: ""
+token: <%= ENV['PRISMIC_TOKEN'] %>
 # OAuth2 configuration
-# client_id: ""
-# client_secret: ""
+client_id: <%= ENV['PRISMIC_CLIENT_ID'] %>
+client_secret: <%= ENV['PRISMIC_CLIENT_SECRET'] %>
 
 # This file can contain ERB; for instance: client_id: <%= ENV['CLIENT_ID'] %>

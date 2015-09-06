@@ -16,6 +16,27 @@ class ApplicationController < ActionController::Base
                     .submit(ref)
   end
 
+  def story
+
+  end 
+
+  def team 
+
+  end 
+
+  def portfolio 
+
+  end
+
+  def proces
+
+  end
+
+  def career 
+
+  end 
+  
+
   # Single-document page action: mostly, setting the @document instance variable, and checking the URL
   def document
     id = params[:id]
